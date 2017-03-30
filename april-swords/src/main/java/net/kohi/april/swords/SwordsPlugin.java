@@ -35,7 +35,7 @@ public class SwordsPlugin extends JavaPlugin {
         }, this);
     }
 
-    public void fuck(ItemStack item) {
+    private void fuck(ItemStack item) {
         if (item != null && item.getItem() == Items.DIAMOND_SWORD) {
             item.setItem(Items.WOOD_SWORD);
             item.setData(0);
