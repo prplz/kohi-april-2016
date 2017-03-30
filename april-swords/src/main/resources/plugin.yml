@@ -1,0 +1,4 @@
+name: april-swords
+version: 0
+main: net.kohi.april.swords.SwordsPlugin
+author: prplz
